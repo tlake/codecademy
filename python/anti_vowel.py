@@ -9,10 +9,10 @@ Make sure to remove lowercase and uppercase vowels.
 '''
 
 def anti_vowel(text):
-	vowels = ["a", "A", "e", "E", "i", "I", "o", "O", "u", "U"]
-	text_lst = list(text)
-	for i in text_lst:
-		for vowel in vowels:
-			if i == vowel:
-				text_lst[i] = ""
-	return str(text_lst)
+    vowels = ["a", "A", "e", "E", "i", "I", "o", "O", "u", "U"]
+    text_lst = list(text)
+    new_list = []
+    for i in text_lst:
+        if i not in vowels:
+            new_list += i
+    return "".join(new_list)
