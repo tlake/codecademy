@@ -33,7 +33,7 @@ def bitwise_or(x, y):
 
     # this is where testing happens
     for i in newer_y:
-        if newer_x[i] == 1 or newer_y[i] == 2:
+        if newer_x[i] == 1 or newer_y[i] == 1:
             new_string += "1"
         else:
             new_string += "0"
