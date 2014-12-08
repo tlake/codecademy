@@ -1,3 +1,5 @@
+<!DOCTYPEhtml>
+<script>
 // Wrapping the whole game into a function
 var playGame = function() {
 
@@ -78,18 +80,20 @@ var playGame = function() {
     
     var computerChoice = getComputerChoice();
     
-    console.log("Player chooses " + userChoice + '\r\n' + "Computer chooses " + computerChoice + '\r\n');
+    window.alert("Player chooses " + userChoice + '\r\n' + "Computer chooses " + computerChoice + '\r\n');
     
     var result = compare(userChoice, computerChoice);
     
     if(result === 0) {
-        console.log("Tie game - try again!");
+        window.alert("Tie game - try again!");
         playGame();
     }
     else {
-        console.log(result);
+        window.alert(result);
     }
 
 };
 
 playGame();
+
+</script>
