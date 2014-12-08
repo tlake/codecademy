@@ -1,0 +1,33 @@
+<!DOCTYPEhtml>
+<script>
+
+// Write your code below!
+var theRoom = function() {
+
+    var direction = prompt("You stand in a nondescript room. There are exits to the north, south, east, and west. Where do you go?").toLowerCase();
+    
+    switch(direction) {
+        case 'north':
+            window.alert("You go north. You freeze to death.");
+            break;
+        case 'south':
+            window.alert("You go south. You're horribly murdered by everyone in King's Landing.");
+            break;
+        case 'east':
+            window.alert("You're murdered to settle an unreasonably large debt accrued in the house of the rising sun.");
+            break;
+        case 'west':
+            window.alert("You're vaporized as the sun quite literally sets on you.");
+            break;
+        case 'dennis':
+            window.alert("Congrats! You've found the way out! You die of old age (by which I mean elderly folks, of course.)");
+            break;
+        default:
+            window.alert("You fail to leave the room. I don't see how, because there are four open doors. You die of stupidity and dehydration. Good job.");
+    }
+    
+};
+
+theRoom();
+
+</script>
