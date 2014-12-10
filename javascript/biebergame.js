@@ -1,3 +1,4 @@
+// Check if the user is ready to play!
 confirm("Yo dawg, you fuckin' ready for this shit?")
 
 var age = prompt("How the fuck old are you, squirt?")
@@ -13,13 +14,12 @@ else
 
 console.log("You are at a Justin Bieber concert, and you hear this lyric 'Lace my shoes off, start racing.'")
 
-var feedback = prompt("How you rate this game, from 0 to 10?")
+console.log("Suddenly, Bieber stops and says, 'Who wants to race me?'");
 
-if ( feedback > 8 )
-{
-    console.log("Thank you! We should race at the next concert!")
-}
-else
-{
-    console.log("I'll keep practicing coding and racing.")
-}
+var userAnswer = prompt("Do you want to race Justin Bieber on stage?").toLowerCase();
+
+if (userAnswer === 'yes') {
+    console.log("You and Bieber start racing. It's neck and neck! You win by a shoelace!")
+} else {
+    console.log("Oh no! Bieber shakes his head and sings 'I set a pace, so I can race without pacing.'")
+};
