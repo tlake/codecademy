@@ -1,4 +1,4 @@
 HTML/CSS
 ========
 
-An assortment of pages acquired through Codecademy's HTML/CSS program.
+An assortment of pages generated as I work through Codecademy's HTML/CSS program.
